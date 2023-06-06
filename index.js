@@ -1,11 +1,28 @@
-//Almacena puntaje de los pinos
-var shoots=[]
-// [ [2,3,0,4] [10,5,9,26] [5,5,9,47]]
-//Funcion de tiro 
-//push
+
 function shoot(n){
     var pine=Math.round(Math.random() * n)
     return pine
 }
 
-shoot(5);
+var arrayPrincipal = []
+
+
+
+
+function IsSpare(shoot1,shoot2){
+    if((shoot1+shoot2)==10){
+        return true
+    }
+  
+  }
+  
+  function sumaTiros(tiro1,tiro2,tiro3){
+    var suma = tiro1+tiro2+tiro3;
+    return suma
+  }
+  
+  function sumaTirosAnteriores(sumaAnterior, SumaActual){
+    total = sumaAnterior + SumaActual
+    return total
+}
+  
