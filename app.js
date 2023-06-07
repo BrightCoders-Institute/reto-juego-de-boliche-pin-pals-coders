@@ -1,4 +1,4 @@
-export class BowlingGame{
+ export default class BowlingGame{
     constructor(){
         this.arrayPrincipal = []
     }
@@ -67,9 +67,4 @@ export class BowlingGame{
     }
 }
 
-modules.exports = BowlingGame;
 
-import {BowlingGame} from "./app";
-
-const bowlingGame = new BowlingGame();
-console.log(bowlingGame.app());
