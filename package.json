@@ -1,0 +1,8 @@
+{
+  "name": "BowlingGame",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
